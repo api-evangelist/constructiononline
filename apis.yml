@@ -6,8 +6,8 @@ apis:
     name: ConstructionOnline
     tags:
       - Construction
-      - Subcontractors
       - Projects
+      - Subcontractors
     humanURL: https://us.constructiononline.com/api-access
     properties:
       - url: https://us.constructiononline.com/api-access
@@ -21,8 +21,8 @@ apis:
 name: ConstructionOnline
 tags:
   - Construction
-  - Subcontractors
   - Projects
+  - Subcontractors
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: 3rd-Party
