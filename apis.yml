@@ -53,6 +53,8 @@ apis:
       Zapier, HubSpot, Salesforce, custom dashboards, and ERP systems.
       Limited to 500 requests per hour per account.
 common:
+  - type: DomainSecurity
+    url: security/constructiononline-domain-security.yml
   - type: Website
     url: https://www.constructiononline.com
   - type: API Access
@@ -73,6 +75,8 @@ common:
     url: https://www.constructiononline.com/privacy
   - type: TermsOfService
     url: https://www.constructiononline.com/terms
+  - url: https://blog.constructiononline.com/rss.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
