@@ -84,6 +84,12 @@ apis:
       Zapier, HubSpot, Salesforce, custom dashboards, and ERP systems.
       Limited to 500 requests per hour per account.
 common:
+  - type: Plans
+    url: plans/constructiononline-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/constructiononline-rate-limits.yml
+  - type: FinOps
+    url: finops/constructiononline-finops.yml
   - type: DomainSecurity
     url: security/constructiononline-domain-security.yml
   - type: Website
