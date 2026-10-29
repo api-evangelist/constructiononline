@@ -1,4 +1,4 @@
-# ConstructionOnline (constructiononline)
+# ConstructionOnline
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,61 +66,104 @@
 
 ConstructionOnline is UDA Technologies' cloud construction project management platform covering estimating, scheduling, budgets, change orders, daily logs, file sharing, and client and subcontractor collaboration. UDA exposes the platform through a documented REST API available to ConstructionOnline Business and Enterprise customers, with read and write access for projects, contacts, schedules, and financials. Access is gated by an application process (api@uda1.com), authenticated with company-issued credentials, and rate-limited to 500 requests per hour per account.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/constructiononline/refs/heads/main/apis.yml)
+**Areas:** Construction · Estimating · Project Management · Project · Scheduling · Subcontractors · Time Tracking
 
-## Scope
+## ConstructionOnline on APIs.io
 
-- **Type:** Index
-- **Position:** Consumer
-- **Access:** 3rd-Party
+Everything profiled for ConstructionOnline is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/constructiononline/](https://apis.io/providers/constructiononline/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Construction
-- Estimating
-- Project Management
-- Projects
-- Scheduling
-- Subcontractors
-- Time Tracking
+- [ConstructionOnline REST API](https://apis.io/apis/constructiononline/rest-api/) — REST API for the ConstructionOnline platform that lets approved Business and Enterprise customers programmatically read and write projects, contacts,…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2025-03-01
-- **Modified:** 2026-04-29
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### ConstructionOnline REST API
-REST API for the ConstructionOnline platform that lets approved Business and Enterprise customers programmatically read and write projects, contacts, schedules, daily logs, change orders, budgets, and time-tracking records. Used to integrate ConstructionOnline with Zapier, HubSpot, Salesforce, custom dashboards, and ERP systems. Limited to 500 requests per hour per account.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://us.constructiononline.com/api-access](https://us.constructiononline.com/api-access)
+- [Constructiononline Domain Security](https://apis.io/security/constructiononline/constructiononline-domain-security/)
 
-#### Tags
+#### Plans and pricing (1)
 
-- Construction, Project Management, REST, Scheduling, Subcontractors
+Published plans, tiers and prices.
 
-#### Properties
+- [Constructiononline Plans Pricing](https://apis.io/plans/constructiononline/constructiononline-plans-pricing/)
 
-- [Documentation](https://us.constructiononline.com/api-access)
-- [Reference](https://help.constructiononline.com/developers)
-- [FAQ](https://help.constructiononline.com/en/faq-constructiononline-api)
+#### Rate limits (1)
 
-## Common Properties
+Published request limits.
+
+- [Constructiononline Rate Limits](https://apis.io/rate-limits/constructiononline/constructiononline-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Constructiononline Finops](https://apis.io/finops/constructiononline/constructiononline-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.constructiononline.com)
-- [API Access](https://us.constructiononline.com/api-access)
-- [Developer Help](https://help.constructiononline.com/developers)
-- [FAQ](https://help.constructiononline.com/en/faq-constructiononline-api)
-- [Software Integrations](https://us.constructiononline.com/construction-software-integrations)
 - [Pricing](https://us.constructiononline.com/enterprise-pricing)
-- [Newsroom](https://news.constructiononline.com)
 - [Support](https://help.constructiononline.com)
-- [Privacy Policy](https://www.constructiononline.com/privacy)
-- [Terms of Service](https://www.constructiononline.com/terms)
+- [Blog](https://blog.constructiononline.com/rss.xml)
+- [Terms of service](https://www.constructiononline.com/terms)
+- [Privacy policy](https://www.constructiononline.com/privacy)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 13.9** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 58.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 7.9 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 18.4 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/constructiononline/](https://apis.io/providers/constructiononline/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ConstructionOnline: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/constructiononline/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
